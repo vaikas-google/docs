@@ -9,7 +9,9 @@ providing default values when Brokers are created. You can control which Broker
 implementations are used and how they are configured by modifying this file. You
 have the flexibility to control the defaults both at the cluster level (each
 Broker created in the cluster) as well as at the namespace level (override the
-behaviour for certain namespaces).
+behaviour for certain namespaces). You can for example use
+[kubectl edit](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#edit)
+to modify the `ConfigMap`.
 
 ## Format of the file
 

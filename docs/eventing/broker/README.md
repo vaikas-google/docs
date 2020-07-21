@@ -64,7 +64,9 @@ it comes configured to create
 [MT Channel Based Brokers](./mt-channel-based-broker.md) as well as In Memory
 Channels. If you are using a different Broker implementation, or want to use
 a different channel implementation, you should modify the `ConfigMap`
-accordingly. You can read more details on how to use
+accordingly. You can for example use
+[kubectl edit](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#edit)
+to modify the `ConfigMap`. You can read more details on how to use
 [config-br-defaults `ConfigMap`](./config-br-defaults.md)
 
 ```yaml
